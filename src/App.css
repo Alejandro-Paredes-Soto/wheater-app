@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
-.App{
+.app{
   background: linear-gradient(90deg, #f3f3f3, #FED1A3);
   opacity: 0.7;
   width: 100%;
@@ -10,16 +10,11 @@
   align-items: center;
 }
 
-.load{
-  position: fixed;
-  top: 40%;
-  left: 40%;
 
-}
 
 .container{
   width: 500px;
-  height: 500px;
+  height: auto;
   border-radius: 4px;
   background: rgba(255,255,255,.5);
   backdrop-filter: blur(10px);
@@ -32,39 +27,32 @@
   justify-content: center;
 }
 
-
-
 .container h1{
-  font-weight: 900;
-  font-family: 'Fascinate';
+  
   color: #FED1A3;
-  font-size: 50px;
-  text-shadow: 0px 0px 10px #FED1A3;
+  font-weight: bold;
+  text-shadow: 0px 0px 40px #FED1A3;
   text-align: center;
+  font-family: 'Fascinate';
+  font-size: 30px;
+}
+
+.container h6{
+  font-size: 17px;
+  color: grey;
 }
 
 
 .container .box{
   width: 100%;
-  height: 60px;
-  border-bottom: 1px  dotted #f3f3f3;
+  height: 90px;
+
   display: flex;
- box-sizing: border-box;
- padding: 10px;
- justify-content: center;
- align-items: center;
- font-size: 29px;
-
-}
-
-.box button{
-  border: none;
-  width: 100%;
-  height: 55px;
-  background: orangered;
-  color: #fff;
-  cursor: pointer;
-  font-size: 24px;
-  border-radius: 5px;
-
+  
+  box-sizing: border-box;
+  padding: 5px;
+  font-family: 'Fascinate';
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
 }
